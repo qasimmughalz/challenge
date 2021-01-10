@@ -56,7 +56,214 @@ $model = new Records();
 
 
 
-	
+	<div class="container my-5 ">
+		<div class="row justify-content-center align-items-center">
+			
+			<div class="col-lg-10">
+				<form>
+					<div class="Section-A bg-light p-3">
+					  <h4 class="my-3 font-weight-bold">A. BUSINESS INFORMATION <span class="additional">( To be completed by the Designated Official )</span></h4>
+					  <div class="form-group">
+					    <label for="LegalName"><span class="badge badge-dark mx-1">1</span>Legal Name</label>
+					    <input type="text" class="form-control" >
+					  </div>
+					  <div class="form-group">
+					    <label for="businessName"><span class="badge badge-dark mx-1">2</span>Business Name <span class="additional">( if different from legal name )</span></label>
+					    <input type="text" class="form-control" id="exampleInputPassword1" />
+					  </div>
+					  <div class="form-group">
+					    <label for="CivicAddress"><span class="badge badge-dark mx-1">3</span>Civic Address</label>
+					    <input type="text" class="form-control" id="exampleInputPassword1" />
+					  </div>
+					  <div class="form-group">
+					    <label for="MailingAddress"><span class="badge badge-dark mx-1">4</span>Mailing Address</label>
+					    <span class="additional">( if different from Civic Address )</span>
+					    <input type="text" class="form-control" id="exampleInputPassword1" />
+					  </div>
+					 
+					  <div class="form-group">
+					  	<div class="form-row">
+					     <div class="col">
+					     	<label for="exampleInputPassword1"><span class="badge badge-dark mx-1">5</span>Telephone Number</label><span class="additional">( Include Extention no.if applicable )</span>
+						      <input type="text" class="form-control" >
+						 </div>
+						 <div class="col">
+						    	<label for="exampleInputPassword1"><span class="badge badge-dark mx-1">6</span>Fascimile Number</label>
+						      <input type="text" class="form-control" >
+						  </div>
+					 	 </div>
+						</div>	
+					   <div class="form-group">
+					    <label for="Email"><span class="badge badge-dark mx-1">7</span>Email</label>
+					    <input type="text" class="form-control" id="exampleInputPassword1" />
+					 	</div>
+
+					   <div class="form-group">
+					    <p class="point8"><span class="badge badge-dark mx-1">8</span>Description of th controlled goods the appliacant may be required to examine, poesses or transfer <br> <span class="additional ml-4">( Refer to the Export Control List )</span></p>
+					   
+					   </div>
+
+					  <div class="form-group">
+					  	<div class="form-row align-items-center">
+					  		<div class="col-8 text-center font-weight-bold">
+					  			 <label>Description of Controlled Goods</label>
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <label>ECL Group <br>No.</label>
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <label>ECL Item <br>No.</label>
+					  		</div>
+					  	</div>
+					  	<div class="form-row text-center align-items-center my-1">
+					  		<div class="col-1">
+					  			<label>a</label>
+					  		</div>
+					  		<div class="col-7 text-center font-weight-bold">
+					  			<input type="text" class="form-control" >
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <input type="text" class="form-control" >
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <input type="text" class="form-control">
+					  		</div>
+					  	</div>
+					  	<div class="form-row text-center align-items-center my-1">
+					  		<div class="col-1">
+					  			<label>b</label>
+					  		</div>
+					  		<div class="col-7 text-center font-weight-bold">
+					  			<input type="text" class="form-control" >
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <input type="text" class="form-control" >
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <input type="text" class="form-control">
+					  		</div>
+					  	</div>
+					  	<div class="form-row text-center align-items-center my-1">
+					  		<div class="col-1">
+					  			<label>c</label>
+					  		</div>
+					  		<div class="col-7 text-center font-weight-bold">
+					  			<input type="text" class="form-control" >
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <input type="text" class="form-control" >
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <input type="text" class="form-control">
+					  		</div>
+					  	</div>
+					  	<div class="form-row text-center align-items-center my-1">
+					  		<div class="col-1">
+					  			<label class="">d</label>
+					  		</div>
+					  		<div class="col-7 text-center font-weight-bold">
+					  			<input type="text" class="form-control" >
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <input type="text" class="form-control" >
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <input type="text" class="form-control">
+					  		</div>
+					  	</div>
+					  	<div class="form-row text-center align-items-center my-1">
+					  		<div class="col-1">
+					  			<label>e</label>
+					  		</div>
+					  		<div class="col-7 text-center font-weight-bold">
+					  			<input type="text" class="form-control" >
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <input type="text" class="form-control" >
+					  		</div>
+					  		<div class="col-2 text-center font-weight-bold">
+					  			 <input type="text" class="form-control">
+					  		</div>
+					  	</div>
+					  </div>
+
+					  </div>
+
+
+					  <div class="Section B p-3 bg-light my-3">
+
+					   <div class="form-group my-3">
+					   	<h4 class="my-3 font-weight-bold">B. APPLICANT INFORMATION <span class="additional">( To be completed by the applicant )</span></h4>
+					 	</div>
+					 	<div class="form-group my-3">
+					 		<label> <span class="badge badge-dark mx-1">9</span>Type of Application</label>
+
+					 			<div class="form-row text-left pl-3 justify-content-center">
+					 			<div class="col">
+					 				<input type="radio" name=""> New
+					 			</div>
+					 			<div class="col">
+					 				<input type="radio" name=""> Re-Assessment
+					 			</div>
+					 	</div>
+					 	<div class="form-group my-3">
+					 		<label> <span class="badge badge-dark mx-1">10</span>Business Title</label>
+					 				<span class="additional">( Select All that Apply )</span>
+					 		<div class="form-row text-left pl-3 justify-content-center">
+					 			<div class="col">
+					 				<input type="radio" name=""> Owner
+					 			</div>
+					 			<div class="col">
+					 				<input type="radio" name=""> Authorized Individual
+					 			</div>
+					 			<div class="col">
+					 				<input type="radio" name=""> Designated Official
+					 			</div>
+					 			<div class="col">
+					 				<input type="radio" name=""> Officer
+					 			</div>
+					 		</div>
+					 		<div class="form-row text-left pl-3 justify-content-center">
+					 			<div class="col">
+					 				<input type="radio" name=""> Director
+					 			</div>
+					 			<div class="col">
+					 				<input type="radio" name=""> Employee
+					 			</div>
+					 			<div class="col">
+					 				<input type="radio" name=""> New
+					 			</div>
+					 			<div class="col">
+					 				<input type="radio" name=""> Re-Assessment
+					 			</div>
+					 		</div>
+					 	</div>
+					 	<div class="form-group my-3">
+					 			
+					 		<label> <span class="badge badge-dark mx-1">9</span>Preferred Language of Correspondence</label>
+					 		<div class="form-row text-left pl-3 justify-content-center">
+					 			<div class="col">
+					 				<input type="radio" name=""> English
+					 			</div>
+					 			<div class="col">
+					 				<input type="radio" name=""> French
+					 			</div>
+					 		</div>
+					 	</div>
+
+					 
+					</div>
+					</div>
+					<div class="form-group text-center my-5">
+					 <button type="submit" class="btn btn-primary" onclick="print()">Click to Print </button>
+					</div>
+					
+				</form>
+				</div>
+				
+		</div>
+
+	</div>
 
 
 
