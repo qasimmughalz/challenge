@@ -1,0 +1,24 @@
+/*Initial Required Setting for the Web Page */
+*{
+	margin: 0;
+	padding: 0
+}
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.additional{
+	font-size: 12px;
+}
+
+
+
+@media print{
+  @page {
+    size: auto;   /* auto is the initial value */
+    size: A4 portrait;
+    margin: 0;  /* this affects the margin in the printer settings */
+    border: 1px solid red;  /* set a border for all printed pages */
+  }
+}
